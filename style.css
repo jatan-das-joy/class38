@@ -1,0 +1,138 @@
+/* start */
+/* header-section
+      start    */
+.headder{
+    background: #F5DEB3;
+}
+.logo{
+    width: 90px;
+    height: 80px;
+    padding: 4px;
+    overflow: hidden;
+}
+.logo img {
+	max-width: 100%;
+	height: 100%;
+
+}
+
+
+  .menubar{}    
+  .menubar ul{
+      text-align: end;
+  }    
+  .menubar ul li {
+	display: inline-block;
+	height: 50px;
+}    
+  .menubar ul li a{
+      display: block;
+      font-size: 19px;
+      padding: 0 15px;
+      border-right: 2px solid #fff;
+      text-decoration: none;
+      line-height: 80px;
+      font-size: 18px;
+     font-weight: 600;
+  }    
+  .menubar ul li a:hover{}    
+
+  /* slider-content */
+  .slider-content{
+      background: url(./intro-bg.jpg) no-repeat top center ;
+      height: 80vh;
+      background-size: 100% 100%;
+      color: #5b5bfb;
+  }
+  .slider-content h5{
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .slider-content h2{
+      font-size: 38px;
+  }
+  /* about-section */
+
+  .about-img {
+	width: 100%;
+}
+  .about-img img {
+	max-width: 100%;
+}
+
+.about-contact{
+    padding-left: 25px;
+}
+
+.about-contact h2 {
+	font-size: 41px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.about-contact h4 {
+	font-size: 30px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.about-contact p {
+	color: #444;
+	line-height: 26px;
+	font-size: 16px;
+}
+/* sector-section */
+.sector-content {
+	border: dotted #444;
+	padding: 40px;
+	border-radius: 50px 0 50px 0;
+}
+
+.sector-icon {
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	border: solid 2px #8a8acc;
+	border-radius: 25px 0 25px 0;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sector-icon i {
+	display: block;
+	font-size: 40px;
+	color: #8a8acc;
+}
+.sector-contenet-write {
+	text-align: center;
+}
+
+.sector-contenet-write h3 {
+	margin-top: 20px;
+	font-size: 32px;
+	font-weight: 600;
+}
+.sector-contenet-write p {
+	text-align: justify;
+}
+
+.bgy{
+    background: #fdf6e8;
+}
+/* footer */
+.footer{
+    background: rgb(34, 34, 44);
+    color: #fff;
+}
+.iconii ul{
+    list-style: none;
+}
+.iconii ul li {
+    display: inline-block;
+}
+.iconii ul li a{
+    display: block;
+    color: #fff;
+    margin-right: 5px;
+}
